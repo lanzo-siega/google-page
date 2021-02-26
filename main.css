@@ -1,0 +1,227 @@
+header {
+    display: block;
+    padding: 20px 10px;
+}
+
+header a {
+    text-decoration:none;
+    color:black;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    float: left;
+}
+
+header a:hover {
+    text-decoration: underline;
+    
+}
+
+header .account-button:hover {
+    text-decoration: none;
+    
+}
+
+#app-button {
+    color: #5f6368;
+    opacity: 1;
+    font-family: 'Material Icons';
+    font-size: 18px;
+    width: 0.5em;
+    height: 0.5em;
+}
+
+#profile-picture {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+
+
+
+.header-right {
+    float:right;
+}
+
+.header-right a {
+    font-size: 14px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 30px;
+    flex: 1;
+  }
+.main-logo {
+    margin-top: 100px;
+}
+
+.main-form {
+    max-width: 584px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.searchbar-area {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 5px 8px 0 16px;
+}
+
+.searchbar-area:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.search-mag-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-right: 7px;
+}
+
+.search-mag-logo svg {
+    height: 20px;
+    width: 20px;
+    fill: #9aa0a6;
+}
+
+.searchbar {
+    margin-top: -5px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    width: 100%;
+    font-size: 16px;
+}
+
+.searchbar:focus {
+    outline:none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+.button-area {
+    margin-top: 20px;
+    /* border: 1px solid #dfe1e5; */
+}
+
+
+button {
+    height: 40px;
+    width: 130px;
+    margin: 5px;
+    font-size: 14;
+    border-radius: 4px;
+    border: transparent;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+/* .searchbar {
+    margin-top: 60px;
+    height: 44px;
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(223, 225, 229,0.5);
+    border-radius: 24px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0);  
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{display:flex;
+    flex-direction:column;
+    height:100%}
+.segment{flex-shrink:0;
+box-sizing:border-box}
+.header{height:60px}
+.logo-area{min-height:150px;max-height:290px;height:calc(100% - 560px)}
+.logo-area2{min-height:92px}
+.searchbar-area{max-height:160px}
+.left-header{flex-grow:1}
+
+.Ne6nSd{display:flex;align-items:center;padding:6px}
+a.header-links{display:inline-block;padding:5px;margin:0 5px;color:#222}
+a.MV3Tnb:first-of-type{margin-left:15px}
+
+a:link {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+ */
